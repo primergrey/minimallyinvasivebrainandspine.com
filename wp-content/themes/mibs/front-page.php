@@ -283,7 +283,7 @@ console.dir(gmarkers);
         </div>
         
     </div>
-    <a href="#contact" id="schedBtn" class="isOnTop"><span>Schedule a free consultation</span></a>
+    <a href="#contact" id="schedBtn" class="isOnTop"><span>Schedule a consultation</span></a>
 </div></div>
 
     </div>
