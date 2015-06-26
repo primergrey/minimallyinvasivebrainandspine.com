@@ -1744,11 +1744,10 @@ div.section{
         padding:0;
         text-align: center;
     }
-    .slide4 .testimBox .content {
+    .slide4 .testimBox .content{
         float:none;
         padding: 40px 5%;
         width: 86%;
-       
     }
     .slide4 .testimBox .content p{
          
@@ -1875,6 +1874,9 @@ div.section{
     }
     .ui-widget-content{
         padding: 5px;
+    }
+    .slide4 a:nth-child(2n) .content {
+       padding:40px 5%;
     }
 }
 @media all and (max-width: 480px) {
