@@ -1,0 +1,1 @@
+[21-Jul-2015 08:57:15 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/mibs/public_html/wp-content/themes/mibs/404.php on line 7

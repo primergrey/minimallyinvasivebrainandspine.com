@@ -19,10 +19,10 @@
 define('DB_NAME', 'mibs_wp');
 #define('DB_NAME', 'azurwest');
 /** MySQL database username */
-define('DB_USER', 'pgrey');
+define('DB_USER', 'mibs_dbuser');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'JustWh4tDoYouThinkYoureDoing%');
+define('DB_PASSWORD', 'ackw5h.sT_l%');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
