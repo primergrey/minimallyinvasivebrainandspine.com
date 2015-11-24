@@ -1486,6 +1486,27 @@ div.section{
 .ui-button-icon-only .ui-icon{
     margin:0;
 }
+#globalMessage {
+    text-align: center;
+    margin:0 auto;
+}
+#globalMessage img{
+    width:20%;
+    /*margin:30px 0 10px 0;*/
+}
+#globalMessage p{
+    width:80%;
+    margin:0 auto;
+}
+.ui-dialog-titlebar-close {
+  visibility: hidden;
+}
+.ui-widget-overlay{
+    opacity: 0.8;
+}
+.ui-widget-content{
+    z-index: 995;
+}
 @media all and (max-width: 1200px) {
     nav ul li a{
         padding:0 8px;
@@ -1880,7 +1901,13 @@ div.section{
     }
 }
 @media all and (max-width: 480px) {
-    
+    #globalMessage p{
+        width:98%;
+        margin:0 auto;
+    }
+    #globalMessage img{
+        width:90%;
+    }
     .slide1 .logo,
     .slide4 .testimBox span.arrow{
         display: none !important;

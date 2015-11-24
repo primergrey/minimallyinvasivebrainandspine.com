@@ -4,6 +4,24 @@
           //console.log(curr); 
     }
 $(document).ready(function(){
+
+
+    var w = $(window).width()-200;
+    var h = $(window).height()-100;
+    if($(window).width()<500){
+        w = $(window).width()-10;
+        h = $(window).height()-10;
+    }
+    $('html,body').animate({ scrollTop: 0 }, 'slow', function() {
+        $("#globalMessage").dialog({
+            resizable: false,
+            modal: true,
+            height: h,
+            width: w,
+            closeOnEscape: false,
+        });
+    });
+
     $("nav ul").append('<li class="closeBtn"><span>Close Menu</span></li>');
       
     $(".menuBtn,.closeBtn").click(function(e) {
@@ -102,6 +120,7 @@ if( $('.home,.page-id-30').length ){
         });
     });
     
+        
     
 //console.log("asdfsa");
 //console.log($(window).outerHeight(true)+$('.hook').outerHeight(true));
